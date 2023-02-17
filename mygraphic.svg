@@ -1,0 +1,6 @@
+<svg width="800px" height="800px" viewbox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<polygon points="200,200 400,500 600,200" stroke="black" stroke-width="15px" fill="#75e4f9"/>
+<line x1="200" y1="200" x2="400" y2="300" style="stroke:black;stroke-width:15px"/>
+<line x1="600" y1="200" x2="400" y2="300" style="stroke:black;stroke-width:15px"/>
+<line x1="400" y1="300" x2="400" y2="500" style="stroke:black;stroke-width:15px"/>
+</svg>
