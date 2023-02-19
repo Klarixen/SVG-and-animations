@@ -1,4 +1,75 @@
 body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f2c5df;
+}
+p {
+    line-height: 2;
+}
+h1 {
+    font-family:'Gloock', serif;
+    font-size: 100px;
+    color:#690a76;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.envelope-svg:hover {
+    animation: svg-animation 5s ease infinite;
+}
+
+@keyframes svg-animation {
+    0% {transform: scale(0.5) }
+    50% {transform: scale(1)}
+    100% {transform: scale(0.5)}
+}
+
+button {
+    width:max-content;
+    height: max-content;
+    color: #690a76;
+    background-color: #d54197;
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
     
-    background-image: url(envelope.svg);
+}
+button:hover {
+    transition: all 0.9s ease-in-out;
+}
+.yes-btn:active {
+    transform: scale(1.2);
+}
+.no-btn:active {
+    transform: scale(0.8);
+}
+
+.no-btn {
+    background-color: #d5d041;
+}
+
+.yes-btn:hover {
+    background-color: #e58bbf;
+}
+
+.no-btn:hover {
+    background-color: #edebad;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ align-items: center;
+}
+.diamond-svg:active {
+    transform: scale(1.5);
 }
