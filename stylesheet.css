@@ -23,16 +23,6 @@ h1 {
     align-items: center;
 }
 
-.envelope-svg:hover {
-    animation: svg-animation 5s ease infinite;
-}
-
-@keyframes svg-animation {
-    0% {transform: scale(0.5) }
-    50% {transform: scale(1)}
-    100% {transform: scale(0.5)}
-}
-
 button {
     width:max-content;
     height: max-content;
@@ -41,7 +31,24 @@ button {
     padding:10px;
     margin: 10px;
     border-radius: 5px;
-    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Animations and transitions*/
+
+.envelope-svg:hover {
+    animation: svg-animation 5s ease infinite;
+}
+
+@keyframes svg-animation {
+    0% {transform: scale(0.5) }
+    50% {transform: scale(1)}
+    100% {transform: scale(0.5)}
 }
 button:hover {
     transition: all 0.9s ease-in-out;
@@ -52,23 +59,14 @@ button:hover {
 .no-btn:active {
     transform: scale(0.8);
 }
-
 .no-btn {
     background-color: #d5d041;
 }
-
 .yes-btn:hover {
     background-color: #e58bbf;
 }
-
 .no-btn:hover {
     background-color: #edebad;
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
- align-items: center;
 }
 .diamond-svg:active {
     transform: scale(1.5);
